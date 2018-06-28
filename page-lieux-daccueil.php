@@ -20,7 +20,7 @@ $faker = Faker\Factory::create()
         <div class="list">
             <?php for ($i=0; $i < 30; $i++): ?>
                 <div class="item js-marker" data-lat="<?= $faker->latitude(43.57639, 43.60639)?>" data-lng="<?= $faker->longitude(3.96306, 3.98306)?>" data-name="Antenne de <?= $faker->words(2) ?>">
-                    <img src="jeune.jpg" alt="l'image est ici">
+                    <img src="http://placehold.it/350x150" alt="l'image est ici">
                     <h4>Contactez-nous!</h4>
                     <p>
                         Le lorem c'est cool Lorem ipsum dolor sit amet consectetur.
